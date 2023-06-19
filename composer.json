@@ -1,0 +1,32 @@
+{
+    "name": "yng/yng-captcha",
+    "description": "captcha package for yngphp",
+    "authors": [
+        {
+            "name": "yng",
+            "email": "840638148@qq.com"
+        }
+    ],
+    "license": "Apache-2.0",
+    "require": {
+        "yng/framework": "^6.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yng\\Captcha\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "extra": {
+        "yng": {
+            "services": [
+                "Yng\\Captcha\\CaptchaService"
+            ],
+            "config":{
+                "captcha": "src/config.php"
+            }            
+        }
+    }
+}
