@@ -42,7 +42,7 @@ public function captcha($id = '')
 
 ### 3.控制器里验证
 
-使用TP的内置验证功能即可
+使用YNGPHP的内置验证功能即可
 ```php
 $this->validate($data,[
     'captcha|验证码'=>'require|captcha'
