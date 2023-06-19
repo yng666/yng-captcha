@@ -35,7 +35,7 @@ public function captcha($id = '')
 ```
 或者
 ```php
-<div><img src="{:captcha_src()}" alt="captcha" /></div>
+<div><img src="{{captcha_src()}}" alt="captcha" /></div>
 ```
 > 上面两种的最终效果是一样的
 
