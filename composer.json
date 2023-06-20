@@ -9,7 +9,7 @@
     ],
     "license": "Apache-2.0",
     "require": {
-        "yng/framework": "^6.0|^8.0"
+        "yng/yng-framework": "dev-main"
     },
     "autoload": {
         "psr-4": {
